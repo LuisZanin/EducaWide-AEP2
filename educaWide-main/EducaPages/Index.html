@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaWide - Página Principal</title>
+    <link rel="stylesheet" href="../styles/main/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>EducaWide</h1>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Enviar Vídeo</a></li>
+                <li><a href="#">Sugestão</a></li>
+                <li><a href="#">Doar Para uma ONG!</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Perfil</a></li>
+                <li><a href="login.html">Sair</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <div class="videos-container">
+            <h2>Vídeos em Alta</h2>
+            <div class="video-list">
+                <div class="video">
+                    <iframe width="280" height="157.5" src="https://www.youtube.com/embed/aiLIPV6eGAY" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="280" height="157.5" src="https://www.youtube.com/embed/3XZz-0O5r_E" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="280" height="157.5" src="https://www.youtube.com/embed/8sVAla6hRqw" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <iframe width="280" height="157.5" src="https://www.youtube.com/embed/nul92pMj-yI" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <h2>Sobre o EducaWide</h2>
+            <p>O EducaWide é uma plataforma educacional que visa fornecer conteúdo de qualidade e atualizado para estudantes e profissionais interessados em diversas áreas do conhecimento. Nosso objetivo é facilitar o acesso ao conhecimento e promover o aprendizado contínuo através de vídeos educativos.</p>
+
+            <h3>Recursos oferecidos:</h3>
+            <ul>
+                <li>Vídeos educativos sobre diversos temas</li>
+                <li>Recursos interativos para aprendizagem</li>
+                <li>Comunidade de aprendizagem para troca de conhecimentos</li>
+                <li>Ferramentas de acompanhamento de progresso</li>
+            </ul>
+
+            <h2>Teoria da Computação</h2>
+            <p>Para ilustrar o funcionamento do login no EducaWide, podemos explicar usando o conceito de autômatos. Um autômato é um modelo matemático que descreve um sistema que muda de um estado para outro em resposta a uma sequência de entradas. No contexto do login:</p>
+            <ul>
+                <li>O autômato inicia em um estado inicial, aguardando as entradas do usuário (email e senha).</li>
+                <li>Cada caractere inserido é verificado pelo autômato para determinar se está correto.</li>
+                <li>Se todos os caracteres forem corretos e o autômato chegar a um estado final, o login é considerado válido.</li>
+                <li>Se algum caractere estiver incorreto, o autômato pode retornar a um estado anterior ou para um estado de erro.</li>
+            </ul>
+            <p>Embora não estejamos implementando um autômato literalmente no código, essa explicação ilustra como um processo automatizado (como um autômato) poderia validar o login no EducaWide.</p>
+
+            <h2>Estrutura de Dados</h2>
+            <p>No EducaWide, utilizamos uma tabela hash para armazenar informações de login de usuários de forma eficiente. A tabela hash é uma estrutura de dados que permite o armazenamento e recuperação rápida de dados com base em uma chave única. Aqui está como funcionaria nosso armazenamento de logins usando uma tabela hash:</p>
+            <ul>
+                <li>Cada usuário registrado tem um email como chave única.</li>
+                <li>As informações (nome, senha) são armazenadas associadas a essa chave na tabela hash.</li>
+                <li>A função de hash transforma o email em um índice único na tabela, permitindo o acesso direto aos dados.</li>
+                <li>Isso proporciona uma maneira eficiente de verificar logins e recuperar informações de usuário durante o processo de autenticação.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="market-research">
+        <h2>Métricas de Software</h2>
+        <p>Para sustentar o posicionamento do EducaWide no mercado educacional digital, conduzimos uma pesquisa fictícia de mercado com base em métricas comparativas com outros aplicativos similares.</p>
+
+        <h3>Comparativo de Métricas:</h3>
+        <ul>
+            <li><strong>Performance:</strong> O EducaWide obteve uma pontuação elevada no teste de performance, indicando tempos de carregamento rápidos e uma navegação fluida.</li>
+            <li><strong>Usabilidade:</strong> A usabilidade do EducaWide é destacada pela interface intuitiva e pela baixa taxa de abandono dos usuários durante o uso.</li>
+            <li><strong>Qualidade dos Conteúdos:</strong> Feedbacks positivos destacam a diversidade e a relevância dos vídeos educativos oferecidos.</li>
+            <li><strong>Engajamento da Comunidade:</strong> Alta participação na comunidade evidencia o engajamento dos usuários com o conteúdo e entre si.</li>
+        </ul>
+
+        <h3>Conclusão:</h3>
+        <p>O EducaWide se destaca no mercado educacional digital, oferecendo uma plataforma robusta e acessível que promove o aprendizado contínuo e colaborativo. As métricas coletadas confirmam sua superioridade em diversos aspectos em comparação com outros aplicativos similares.</p>
+    </div>
+
+    <img src="../image/lighthouse.png" alt="Relatório do Lighthouse" class="lighthouse-report">
+
+    <script src="../scripts/main.js"></script>
+</body>
+</html>

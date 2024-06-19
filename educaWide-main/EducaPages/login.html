@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducaWide - Login</title>
+    <link rel="stylesheet" href="../styles/login/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>EducaWide</h1>
+        <form id="loginForm" action="dashboard.html" method="POST">
+            <label for="username">Email</label>
+            <input type="email" id="username" name="username" required>
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+        <div class="additional-options">
+            <a href="register.html" class="register-button">Cadastre-se</a>
+            <a href="forgot-password.html" class="forgot-password">Esqueceu sua Senha?</a>
+        </div>
+    </div>
+    <script src="../scripts/login/index.js"></script>
+</body>
+</html>
